@@ -8,7 +8,7 @@ this is my long term project.
 
 # Want to take a peak?
 
-![screan]()
+![screan](./41.png)
 
 # Lenguages :
 
