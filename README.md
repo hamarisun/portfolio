@@ -26,4 +26,4 @@ Simple, mostly for fun, but also to learn coding as i mentioned earlier.
 - CSS
 - JavaScript
 
-* the art that is/ will appear on the page is mine pliz don't steal *
+*the art that is/ will appear on the page is mine pliz don't steal*
