@@ -16,6 +16,11 @@ Simple, mostly for fun, but also to learn coding as i mentioned earlier.
 - a black hole Gargantua( developed for Interstellar, i love the movie btw)
 - a slide show
 
+# What can you do there
+
+- click the cyan buttons
+- change the slides of the slide show
+  
 # Want to take a peak?
 
 ![screan](./23.png)
@@ -26,4 +31,4 @@ Simple, mostly for fun, but also to learn coding as i mentioned earlier.
 - CSS
 - JavaScript
 
-*the art that is/ will appear on the page is mine pliz don't steal*
+*the art that is/ will appear on the page is mine plis don't steal*
