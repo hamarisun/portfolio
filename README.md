@@ -18,7 +18,7 @@ Simple, mostly for fun, but also to learn coding as i mentioned earlier.
 
 # Want to take a peak?
 
-![screan](./41.png)
+![screan](./23.png)
 
 # Lenguages :
 
