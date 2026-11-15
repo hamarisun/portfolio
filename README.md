@@ -13,7 +13,8 @@ Simple, mostly for fun, but also to learn coding as i mentioned earlier.
 - my other projects
 - custom UI
 - links to my work
-- a black hole Gargantua( developed for Interstellar, i love the movie btw) 
+- a black hole Gargantua( developed for Interstellar, i love the movie btw)
+- a slide show
 
 # Want to take a peak?
 
