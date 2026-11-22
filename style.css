@@ -245,16 +245,16 @@ header{
 
 }
 #hackbanner{
-    background-image: url(pic/hackban.png);
+    background-image: url('pic/hackban.png');
     border: solid var(--darkgr);
     
 }
 #mybanner{
-    background-image: url(pic/baner.png);
+    background-image: url('pic/baner.png');
     border: solid var(--gr);
 }
 #thbanner{
-    background-image: url(pic/matrix.png);
+    background-image: url('pic/matrix.png');
     border: solid var(--gr);
 
 }
@@ -327,7 +327,7 @@ header{
     background-image:url('pic/black_hole.jpg') ;}
 #slid3{
     width: 560px;
-    background-image: url(pic/flower.png);
+    background-image: url('pic/flower.png');
 
 }
 
