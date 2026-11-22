@@ -6,145 +6,79 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css" >
          <link rel="icon" type="image/x-icon" href="pic\icona.png">
-        <script src="stuff.js"></script>
+        
     </head>
     <body>
         <header>
             <img src="pic\icona.png"  style=" height: 20px; width: 20px; position: absolute;">
             <p style="margin-top: 0px;margin-left: 30px; position: absolute;">#rock</p>
-        </header>
-      
-
-        <div id="back" style="display: none;" >
-            <p class="bold" style="float:left">Stuff</p>
-            <button type="button" onclick="myopen()">open?</button>
-       
-        <div class="block" id="demo" style="display: none;">
-            <p style="font-variant: small-caps;font-size:60px">This is a block element.</p>
-            <button type="button" onclick="myFunction()">Click Me!</button>
-        </div> 
-        </div>   
+        </header>  
         
 
-        <div class="oko" id="main" style="top: 25%; left: 18%">
-            <section> 
+        <div class="oko" id="main" style="top: 20%; left: 18%">
+             
+                
                 <div class="oko" id="dis">
+                    <img src="pic\iii.png" alt="profile" style="height: 262px; width: 262px;">
 
                 </div> 
-                
-
-                
-                <div class="oko" id="hack" style="display: none;">
-                
-            <div class="okoin" id="hackin">
-                <p>want to join hack club<br>check them out:<br><a href="https://hackclub.com/">hackclub!</a></p>
-            </div>
-            <div class="okohe" type="button" onclick="clubclose()">
-                close
-            </div>
-            
-
-        </div>
-        <div class="oko" id="about" style="display: none;">
-            <div class="okoin">
-                <p>you can find me:</p>
-                <p>on Cara(it's like instagarm)<a href="https://cara.app/hari-zero">@hari-zero</a></p>
-                <p>on Stardance :<a href="https://stardance.hackclub.com/@hamarisun/projects">@hamarisun</a></p>
-                <p>on hackclub slack :<a href="https://slack.hackclub.com/">@hamari</a></p>
-            </div>
-            <div class="okohe" type="button" onclick="mclose()">
-                close
-            </div>
-            
-
-        </div>
-
-        <div class="oko" id="th" style="display: none;">
-            <div class="okoin">
-                <p>my personal site/portfolio<br>more things will be added later<br>i hope to make this<br>my portfolio site</p>
-            </div>
-            <div class="okohe" type="button" onclick="tclose()">
-                close
-            </div>
-
-                </div>
-            
-            </section>
-            <section>
-            <div id="dor3" class="door" type="button" onclick="git()">
-                github? 
-            </div>
-                
-            <div id="dor4" class="door" type="button" onclick="clubopen()">
-                hack club
-            </div>
-            <div id="dor5" class="door" type="button" onclick="mopen()">
-                me
-            </div>
-            <div id="dor6" class="door" type="button" onclick="topen()">
-                this project
-            </div>
-            <div class="door" id="dor2" onclick="pageinf()">
-            <p>code to this site</p>
-            </div>
-
-            <div class="door" id="dor1" onclick="os()">
-            <p style="top: 200px;">This is my crying<br> for help webOS.</p>
-            </div>
-            </section>
-            <section>
+            <section class="wind">
+        
                 <div class="oko" id="mh">
                     <img src="pic\icona1.png" style="margin-left: -290px; margin-top: -2px; height: 25px; width: 25px; position: absolute;">
                     <img src="pic\icona2.png" style="margin-left: 260px; margin-top: -2px; height: 25px; width: 25px; position: absolute;">
-                    <p style="margin-top: 0px;">About</p>
-                    
+                    <p id="mhtext" style="margin-top: 0px;"></p>
                 </div>
                 <div class="oko" id="m">
+                    
 
-
-                <div id="me" class="window">
-            <h3 class="bold" style="position: absolute; top: 20px ;" >Something about me.</h3>
-            <h5 style=" position: absolute; top:60px; line-height: 1.5;">Hi, I'm Hamari aka rock aka i don't like to use my real name on the internet.
-                 I'm an artist, love to paint and draw. I had always had been fascinated with coding, but never got into it.
-                 Save to say i got finaly got into it thanks to my friends and hack club.</h5>
             </div>
-            
-            <div class="oko" id="dis2">
-                <p style="margin-top: 0px;">slide show for (my art in the future)</p>
-            </div>
-            <div class="oko" id="dis1"> 
-
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="pic\black.png" style="width:100%">
-    <div class="text">nothing</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="pic\flower.png" style="width:100%">
-    <div class="text">Flower</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="pic\black_hole.jpg" style="width:100%">
-    <div class="text">Black Hole</div>
-  </div>
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-               
-            </div>
+            </section>
 
             
                   
-            </section>
+            
+                
+                <div class="oko" id="intro">
+                    <p>Hi I'm hamari<br>this is my website</p>
+
+                </div>
+
+
+                <div class="menu-window" style="margin-top:  150px ;">
+                    
+                <button id="dor7" class="door" onclick="welcomescr()">welcome</button>
+                <button id="dor3" class="door out" onclick="git()">github</button>
+                <button id="dor4" class="door" onclick="clubopen()">Hack Club</button>
+                <button id="dor5" class="door" onclick="mopen()">about</button>
+                <button id="dor6" class="door" onclick="topen()">this project</button>
+                <button id="dor2" class="door out" onclick="pageinf()">code to this site</button>
+                <button id="dor1" class="door out" onclick="os()">this is my crying<br>for help webOS.</button>
+
+            </div>
+
+
+        
+
+
+
+        <div class="oko" id="hack" style="display: none;"></div>
+
+
+        <div class="oko" id="about" style="display: none;"></div>
+
+
+        <div class="oko" id="th" style="display: none;"></div>
+
+        <div class="oko" id="welcome" style="display:none;"></div>
        
+
+
         </div>
         
         
         
-
+        <script src="stuff.js"></script>
     </body>
  </html>
  
