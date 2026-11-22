@@ -20,6 +20,7 @@ Simple, mostly for fun, but also to learn coding as i mentioned earlier.
 
 - click the cyan buttons
 - change the slides of the slide show
+- play with the accordion
   
 # Want to take a peak?
 
