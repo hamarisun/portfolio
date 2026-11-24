@@ -39,7 +39,8 @@ header{
     align-items: center;
     justify-content: center;
 }
-.a{
+
+a{
     color: #c3b8ff;
 }
 
@@ -242,6 +243,9 @@ header{
     padding: 5px;
     margin: 5px;
     background-color: var(--mmm);
+    letter-spacing: 2px;
+    line-height: 25px;
+
 
 }
 #hackbanner{
@@ -260,6 +264,9 @@ header{
 }
 #dis{
     height: 275px;
+}
+#disi{
+    height: 262px; width: 262px;
 }
 #dis1{
     width: 560px;
@@ -320,14 +327,14 @@ header{
 }
 #sild1{
     width: 560px;
-    background-image:url("pic/black.png") ;
+    background-image:url('pic/black.png') ;
 }
 #slid2{
     width: 560px;
     background-image:url('pic/black_hole.jpg') ;}
 #slid3{
     width: 560px;
-    background-image: url('pic/flower.png');
+    background-image: url(pic/flower.png);
 
 }
 
@@ -432,4 +439,27 @@ header{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+@media screen and (max-width: 500px){
+    #main{
+        transform: scale(0.40);
+        margin-top: -200px;
+        margin-left: -360px;
+        height: 800px;
+        width: 941px;
+    
+    }
+    
+#m{
+    margin-left: 348px;
+    height: 730px;
+}
+#mh{
+    margin-left: 348px;
+}
+#me{
+    font-size: 20px;
+}
+
 }
