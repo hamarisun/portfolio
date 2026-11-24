@@ -440,26 +440,3 @@ a{
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-
-@media screen and (max-width: 500px){
-    #main{
-        transform: scale(0.40);
-        margin-top: -200px;
-        margin-left: -360px;
-        height: 800px;
-        width: 941px;
-    
-    }
-    
-#m{
-    margin-left: 348px;
-    height: 730px;
-}
-#mh{
-    margin-left: 348px;
-}
-#me{
-    font-size: 20px;
-}
-
-}
